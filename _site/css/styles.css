@@ -72,3 +72,8 @@ footer {
   font-size: 0.65em;
   text-align: center;
 }
+
+img{
+  height:500px;
+  width:500px;
+}

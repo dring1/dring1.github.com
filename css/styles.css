@@ -6,8 +6,8 @@ body {
   margin: 0;
 }
 ul {
-  margin: 0;
-  padding: 0;
+  //margin: 0;
+  //padding: 0;
 }
 a {
   color: #ccc;
@@ -21,13 +21,15 @@ a:hover {
  
 #main {
   width: 960px;
-  margin: 0 auto;
+  height:500px;
+  margin: 0 auto ;
   background: rgba(255, 255, 255, 0.4);
 }
 header {
   padding: 0 10px;
   overflow: hidden;
 }
+
 h1 {
   margin: 0;
 }
@@ -73,7 +75,32 @@ footer {
   text-align: center;
 }
 
-img{
-  height:500px;
-  width:500px;
+.container{
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.pic{
+  float: left;
+  width:200px;
+  border-style: solid;
+  border-color: black;
+}
+
+.bio{
+  float: right;
+  left:50px;
+  width:650px;
+}
+
+#GitLink{
+  font-size: 120%;
+  color: #FFFF00;
+}
+.Title{
+  font-weight: bold;
+  text-decoration: underline;
+}
+.desc{
+  margin-left: 20px;
 }

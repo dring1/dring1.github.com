@@ -4,31 +4,38 @@
   <meta charset=utf-8 />
   <title>  Devon Ring </title>
   <link rel="stylesheet" href="/css/styles.css" />
+  <link rel="stylesheet" href="/css/bootstrap/css/bootstrap.css" />
+
 </head>
+
 <body>
  
   <div id="main">
  
-    <header>
-      <h1> Devon Ring </h1> 
-    <header>
- 
-    <nav role="navigation">
-      <div class="links">
-        <ul>
-          <li><a href="/">Home</a></li>
-          <li><a href="/pages/portfolio.html">Portfolio</a></li>
-          <li><a href="/pages/CV.html">Resume </a></li>
-          <li><a href="/pages/contact.html">Contact</a></li>
-        </ul>
+  <header class="navbar navbar-fixed-top">  
+    <div class="navbar-inner">
+      <div class="container">
+        <nav>
+          <ul class="nav pull-right">
+            <li><a href="#"><span id="nav-name">  Devon Ring </span></a></li>
+            <li ><a href="/index.html" >Home</a></li>
+            <li ><a href="/pages/portfolio.html" id="portfolio" >Portfolio</a></li>
+            <li><a href="/pages/CV.html">Resume </a></li>
+            <li><a href="/pages/contact.html">Contact</a></li>
+          </ul>
+        </nav>
       </div>
-    </nav>
+    </div>
+  </header>
+ 
     <br>
+    <div class = "center-block">
     <br>
-<div class="container">
-		<img class="pic" src="img\banner.jpg">
-	<div class = "bio" >
-		<p> Hello all.My name is Devon Ring, born in the depths of southern Ontario &amp; a hardened Canadian.
+<h1> Home </h1> 
+<div class="center hero-unit">
+		<img class="pic" src="assets\img\pic.jpg">
+		
+		<p class="blurb"> Hello all.My name is Devon Ring, born in the depths of southern Ontario &amp; a hardened Canadian.
 			I am currently a student employee at the Bank of Canada.
 			I am enrolled at Carleton University for my 4th year into my undergrad in Computer Science: Internet &amp; Network security.
 			Lately, my time as been filled with dabbles into Ruby on Rails &amp; the Python Django web frameworks. 
@@ -38,16 +45,45 @@
 
 			<span id= "GitLink" > <a href="https://www.github.com/dring1"> here</a> </span>
 
-
+			<br><br>
 		</p>
-	</div>
+	
 </div>
- 
-    
-    <footer>
-      <p></p>
-    </footer>
+  </div>
  
   </div>
+  <footer>
+
+
+<div class="navbar navbar-fixed-bottom">
+
+  <div class="navbar-inner">
+      <div class="container">
+        <nav>
+          <ul class="nav ">
+            
+            <li ><a href="http://ca.linkedin.com/pub/devon-ring/59/403/34a">
+        
+            <img src="http://www.linkedin.com/img/webpromo/btn_viewmy_160x25.png" width="160" height="25" border="0" alt="View Devon Ring's profile on LinkedIn">
+          
+      </a></li>
+            <li ><a href="https://twitter.com/share" class="twitter-share-button" data-via="dringx">Tweet</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+    (function() {
+      var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+      po.src = 'https://apis.google.com/js/plusone.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+    })();
+  </script>
+      <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+</footer>
+
 </body>
+
 </html>

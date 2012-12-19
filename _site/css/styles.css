@@ -14,16 +14,16 @@
 }
 
 .pic{
-	width: 400px;
-	height: 300px;
+	width: 300px;
+	height: 230px;
 	float: left;
-	margin-top: 50px;
 	margin-right: 30px;
 	border-radius : 5px ;
 }
 
 .blurb{
 	overflow: hidden;
+	
 }
 
 

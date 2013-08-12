@@ -9,3 +9,11 @@ layout: default
 <a href="blog_posts/rake_tasks.html">Rake tasks making life a little easier</a>
 
 </div>
+
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>

@@ -1,0 +1,43 @@
+---
+layout: default
+---
+<br>
+<h1>The Noob Approach - Ruby on Rails</h1>
+<div class="blog_contents">
+<p>So you have decided to get started with Ruby on Rails? Much easier said than done.
+I remember when I thought that and would only think it would take a week or so, but I found it 
+very difficult and time consuming as it felt like I had a major lack of direction when trying to
+break into the world of Ruby on Rails. I hope this post can shed a little light from my past 
+experiences and get you on the right track.</p>
+
+<h3>Getting Started with Installation</h3>
+
+<p>For Winodws users please check out <a href="http://railsinstaller.org/en">railsinstaller.org</a>
+For Mac users I highly suggest you read the railscasts <a href="http://railscasts.com/episodes/310-getting-started-with-rails"> guide </a></p>
+<p> One of the most daunting tasks for getting started with Rails may be the fact that installing it can be quite a bitch.
+So, for you linux users I have supplied a quick bash script to simplify the task. </p>
+
+<span>What installs? </span>
+<ul>
+	<li>RVM [Ruby Version Manager]</li>
+	<li>Ruby 1.9.3</li>	
+	<li>Rails 3 </li>
+	<li>nodejs</li>
+	<li>A smack load of libraries</li>
+	<li>cURL</li>
+</ul>
+
+Additionally the script will attempt to load the rvm environment on login.
+
+If you wish to use more modern versions of software you must edit the script yourself.
+
+You <underline> must </underline> run the script from a login shell inorder to install correctly.
+
+The script will <strong> only </strong> function on Linux with bash. 
+
+The script is available here : <a href="#"> download </a>
+ <a href="https...." > git repo </a>
+
+If you have any questions feel free to comment or contact through github.
+
+</div>

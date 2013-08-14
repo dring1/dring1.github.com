@@ -3,6 +3,9 @@
 	margin-right: auto;
 	width: 900px;
 }
+.content{
+	margin-bottom: 10%;
+}
 
 #nav-name{
 	margin-right: 550px;
@@ -37,4 +40,25 @@
 
 .contents{
 	margin-left: 20%;
+}
+.code-snippet{
+	font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	padding: 10px 25px 10px 25px;
+	background-color: #000000;
+	color: #FFFFFF;
+	font-size: 12px;
+	word-wrap:break-word;
+}
+.terminal{
+	font-family: Consolas, Menlo, Monaco;
+	background-color: #FFFFFF;
+	color: #000000;
+	border: solid 1px #b6b6b6;
+	border-bottom: none;
+	font-size: 14px;
+	text-align: center;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
 }

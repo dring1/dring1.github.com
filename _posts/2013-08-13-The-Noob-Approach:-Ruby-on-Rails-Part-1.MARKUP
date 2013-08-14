@@ -1,0 +1,84 @@
+---
+layout: default
+---
+<br>
+<h3><strong>{{ page.title }}</strong></h3>
+<h4>{{ page.date | date: "%B %e, %Y" }}</h4>
+<div class="blog_contents">
+	<p>So you have decided to get started with Ruby on Rails? Much easier said than done.
+		I remember when I thought that and would only think it would take a week or so, but I found it 
+		very difficult and time consuming as it felt like I had a major lack of direction when trying to
+		break into the world of Ruby on Rails. I hope this post can shed a little light from my past 
+		experiences and get you on the right track.</p>
+
+		<h3>Getting Started with Installation</h3>
+
+		<p>For Winodws users please check out <a href="http://railsinstaller.org/en">railsinstaller.org</a></p>	
+		<p>
+			For Mac users I highly suggest you read the railscasts <a href="http://railscasts.com/episodes/310-getting-started-with-rails"> guide </a></p>
+
+			<p> One of the most daunting tasks for getting started with Rails may be the fact that installing it can be quite a bitch.
+				So, for you linux users I have supplied a list of command to enter into your terminal.
+				Note: you will need sudo powa </p>
+
+				<span>What installs? </span>
+				<ul>
+					<li>RVM [Ruby Version Manager]</li>
+					<li>Ruby 1.9.3</li>	
+					<li>Rails 3 </li>
+					<li>nodejs</li>
+					<li>git (sign up for an account if you already haven't!)</li>
+					<li>sqlite</li>
+					<li>cURL</li>
+				</ul>
+
+
+
+				If you wish to use more modern versions of software you must edit the command line snippets yourself.
+
+				<div class="code-snippet">
+					<div class="terminal">Terminal</div>
+					<ol>
+						<li>sudo apt-get install -y curl</li>
+						<li>curl -L get.rvm.io | bash -s stable</li>
+						<li>echo [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" >> ~/.bash_profile</li>
+						<li>sudo apt-get install git sqlite </li>
+						<li>echo | sudo apt-add-repository ppa:chris-lea/node.js<br>
+							sudo apt-get update<br>
+							sudo apt-get install -y nodejs</li>
+							<li>rvm install 1.9.3</li>
+							<li>source ~/.rvm/scripts/rvm</li>
+							<li>rvm use 1.9.3 --default</li>
+							<li>gem install rails</li>
+						</ol>
+					
+				</div>
+
+				<p>Easy right? Well was not for me when getting start, I hope this can shine a little light.
+					If you have issues please leave a comment and I will try to help to the best of my knowledge</p>
+
+					<p>After all is installed lets try a few terminal commands to check if everything is actually there
+						(Note: Output may vary)</p>
+
+						<div class="code-snippet">
+							<div class="terminal">Terminal</div>
+							<p>$ruby -v<br>
+								ruby 1.9.3p448 (2013-06-27 revision 41675) [x86_64-linux]</p>
+						</div>
+
+
+						<div class="code-snippet">
+							<div class="terminal">Terminal</div>
+							<p>$rvm version<br>
+								rvm 1.21.9 (stable) by Wayne E. Seguin <wayneeseguin@gmail.com>, Michal Papis <mpapis@gmail.com> [https://rvm.io/]
+							</p>
+						</div>
+					
+
+			<!-- 	<div class="code-snippet">
+					<div class="terminal">Terminal</div>
+					<p>$nodejs<br>
+					>
+					</div>
+				</div> -->
+</div>

@@ -36,10 +36,10 @@ layout: default
 
 				If you wish to use more modern versions of software you must edit the command line snippets yourself.
 
+				Enter these commands into your terminal in numerical order
 				<div class="code-snippet">
-					<div class="terminal">Terminal</div>
 					<ol>
-						<li>sudo apt-get install -y curl</li>
+						<li>sudo apt-get install -y curl #installing cURL a maic</li>
 						<li>curl -L get.rvm.io | bash -s stable</li>
 						<li>echo [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" >> ~/.bash_profile</li>
 						<li>sudo apt-get install git sqlite </li>
@@ -51,34 +51,59 @@ layout: default
 							<li>rvm use 1.9.3 --default</li>
 							<li>gem install rails</li>
 						</ol>
-					
-				</div>
 
-				<p>Easy right? Well was not for me when getting start, I hope this can shine a little light.
-					If you have issues please leave a comment and I will try to help to the best of my knowledge</p>
-
-					<p>After all is installed lets try a few terminal commands to check if everything is actually there
-						(Note: Output may vary)</p>
-
-						<div class="code-snippet">
-							<div class="terminal">Terminal</div>
-							<p>$ruby -v<br>
-								ruby 1.9.3p448 (2013-06-27 revision 41675) [x86_64-linux]</p>
-						</div>
-
-
-						<div class="code-snippet">
-							<div class="terminal">Terminal</div>
-							<p>$rvm version<br>
-								rvm 1.21.9 (stable) by Wayne E. Seguin <wayneeseguin@gmail.com>, Michal Papis <mpapis@gmail.com> [https://rvm.io/]
-							</p>
-						</div>
-					
-
-			<!-- 	<div class="code-snippet">
-					<div class="terminal">Terminal</div>
-					<p>$nodejs<br>
-					>
 					</div>
-				</div> -->
-</div>
+
+					<p>Easy right? Well was not for me when getting start, I hope this can shine a little light.
+						If you have issues please leave a comment and I will try to help to the best of my knowledge</p>
+
+						<p>After all is installed lets try a few terminal commands to check if everything is actually there
+							(Note: Output may vary)</p>
+
+							<div class="terminal">Terminal</div>
+							<div class="code-snippet">
+								<p>$ruby -v<br>
+									ruby 1.9.3p448 (2013-06-27 revision 41675) [x86_64-linux]</p>
+									<p>$nodejs<br>
+										>
+									</p>	
+									<p>$rvm version<br>
+										rvm 1.21.9 (stable) by Wayne E. Seguin <wayneeseguin@gmail.com>, Michal Papis <mpapis@gmail.com> [https://rvm.io/]
+									</p>
+								</div>
+								<br>
+
+
+								<p>Now let's create a test application make sure everything "clicks" </p>
+								<div class="terminal">Terminal</div>
+								<div class="code-snippet">
+									<p>$rails new app</p>
+									<p>create <br> 
+										create  README.rdoc<br>
+										create  Rakefile<br>
+										create  config.ru<br>
+										create  .gitignore<br>
+										create  Gemfile<br>
+										create  app<br>
+										.........
+									</p>
+								</div>
+								<p>Rails is generating what is calleld the scaffolding, the frame work of the rails project</p>
+
+								To visit the homepage of the freshly created app we will need the terminal, by default rails uses port 3000 for local development
+								<div class="terminal">Terminal</div>
+								<div class="code-snippet">
+									
+									<p>$cd app
+										rails s<br>
+										=> Booting WEBrick<br>
+										=> Rails 3.2.13 application starting in development on http://0.0.0.0:3000<br>
+										=> Call with -d to detach<br>
+										=> Ctrl-C to shutdown server<br>
+										[2013-08-14 12:41:36] INFO  WEBrick 1.3.1<br>
+										[2013-08-14 12:41:36] INFO  ruby 1.9.3 (2013-06-27) [x86_64-linux]<br>
+										[2013-08-14 12:41:36] INFO  WEBrick::HTTPServer#start: pid=28126 port=3000
+									</p>
+
+								</div>						
+							</div>	

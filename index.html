@@ -2,25 +2,36 @@
 layout: default
 ---
 <br>
-<h1> Home </h1> 
-<div class="center hero-unit">
-	<div class="round-border">
-		<div class="terminal">Terminal</div>
-		<div class="code-snippet border-round-bottom">
-			<p> $Hello World. Welcome to my blog/personal website.
-				Feel free to check out my past & current projects : <a href="https://github.com/dring1"> 
-				$github </a>
-
-			</p>
+<h1> Blog List </h1> 
+<div class=" ">
+	
 
 			<ul>
 				{% for post in site.posts %}
-				<li>
-					<a href="{{ post.url }}">{{ post.title }} -- {{post.date}}</a>
+				<li class="post-link">
+					<h3><a href="{{ post.url }}"> {{ post.title }}</a></h3>
+					<p>So you have decided to get started with Ruby on Rails? Much easier said than done.
+						I remember when I thought that and thought it would take a week or so, but I found it 
+						very difficult and time consuming as it felt like I had a major lack of direction</p>
 				</li>
 				{% endfor %}
 			</ul>
-		</div>	
-	</div>
+
+	
+
+</div>
+
+<div class="aboutme">
 	
 </div>
+
+<p>
+	<ul class="buttons unstyled">
+	  <li><a href="http://github.com/erjjones" rel="me" class="social github" title="Go to github.com/erjjones" target="_blank"></a></li>
+	  <li><a href="http://www.linkedin.com/pub/eric-jones/a/848/1b3" rel="me" class="social linkedin" title="Go to LinkedIn profile" target="_blank"></a></li>
+	  <li><a href="http://www.twitter.com/erjjones" rel="me" class="social twitter" title="Go to twitter.com/erjjones" target="_blank"></a></li>
+	  <li><a href="http://feeds.feedburner.com/github/xmyo" rel="me" class="social rss" title="Go to feedburner erjjones rss feed" target="_blank"></a></li>
+	  <li><a href="https://plus.google.com/u/0/114561259331203581412/posts" rel="me" class="social gplus" title="Go to Google Plus profile" target="_blank"></a></li> 
+	  <li><a href="https://github.com/erjjones/Feedback/issues/new" rel="me" class="social mail" title="Leave feedback for Eric"  target="_blank"></a></li>				
+	</ul>
+</p>

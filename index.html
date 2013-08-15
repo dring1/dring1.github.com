@@ -4,18 +4,23 @@ layout: default
 <br>
 <h1> Home </h1> 
 <div class="center hero-unit">
-		<img class="pic" src="assets\img\pic.jpg">
-		
-		<p class="blurb"> Hello World. As the banner says above I am Devon Ring, born in the depths of southern Ontario.
-			<br> Employed at the Bank of Canada in Ottawa as a contract employee working on a massive Windows 7 Deployment project.<br>
-			I am enrolled at Carleton University for my final year into my undergrad in Computer Science: Internet &amp; Network security.
-			<br>
-			Currently I have been spending the majority of my spare time working on a small website ( no where near ready, who knew interface design would be so demanding :P )
-			My current projects can be found at my GitHub page:
+	<div class="round-border">
+		<div class="terminal">Terminal</div>
+		<div class="code-snippet">
+			<p> $Hello World. Welcome to my blog/personal website.
+				Feel free to check out my past & current projects : <a href="https://github.com/dring1"> 
+				$github </a>
 
-			<span id= "GitLink" > <a href="https://www.github.com/dring1"> here</a> </span>
+			</p>
 
-			<br><br>
-		</p>
+			<ul>
+				{% for post in site.posts %}
+				<li>
+					<a href="{{ post.url }}">{{ post.title }} -- {{post.date}}</a>
+				</li>
+				{% endfor %}
+			</ul>
+		</div>	
+	</div>
 	
 </div>

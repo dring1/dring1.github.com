@@ -46,10 +46,14 @@
 	padding: 10px 25px 10px 25px;
 	background-color: #000000;
 	color: #FFFFFF;
-	font-size: 12px;
+	font-size: 14px;
 	word-wrap:break-word;
+	border-bottom-right-radius: 12px;
+	border-bottom-left-radius: 12px;
 }
 .terminal{
+	border-top-right-radius: 12px;
+	border-top-left-radius: 12px;
 	font: 12px/1.5 "Lucida Grande", Geneva, Arial, Verdana, sans-serif;
 	background-color: #C0C0C0;
 	color: #000000;
@@ -58,5 +62,4 @@
 	font-size: 16px;
 	font-weight: bold;
 	text-align: center;
-	
 }

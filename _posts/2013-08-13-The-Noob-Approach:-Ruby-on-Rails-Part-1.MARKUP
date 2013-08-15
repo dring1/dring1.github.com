@@ -5,6 +5,15 @@ layout: default
 <h3><strong>{{ page.title }}</strong></h3>
 <h4>{{ page.date | date: "%B %e, %Y" }}</h4>
 <div class="blog_contents">
+
+	<h3>Is this post for you ?</h3>
+	<p>This blog assumes that you have basic knowledge of the following web technologies:</p>
+	<ul>
+		<li>CSS</li>
+		<li>HTML</li>
+		<li>Javascript</li>
+		<li>Competent with terminal</li>
+	</ul>
 	<p>So you have decided to get started with Ruby on Rails? Much easier said than done.
 		I remember when I thought that and would only think it would take a week or so, but I found it 
 		very difficult and time consuming as it felt like I had a major lack of direction when trying to
@@ -44,12 +53,12 @@ layout: default
 						<li>echo [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" >> ~/.bash_profile</li>
 						<li>sudo apt-get install git sqlite </li>
 						<li>echo | sudo apt-add-repository ppa:chris-lea/node.js<br>
-							sudo apt-get update<br>
-							sudo apt-get install -y nodejs</li>
-							<li>rvm install 1.9.3</li>
-							<li>source ~/.rvm/scripts/rvm</li>
-							<li>rvm use 1.9.3 --default</li>
-							<li>gem install rails</li>
+						sudo apt-get update<br>
+						sudo apt-get install -y nodejs</li>
+						<li>rvm install 1.9.3</li>
+						<li>source ~/.rvm/scripts/rvm</li>
+						<li>rvm use 1.9.3 --default</li>
+						<li>gem install rails</li>
 						</ol>
 
 					</div>
@@ -59,51 +68,89 @@ layout: default
 
 						<p>After all is installed lets try a few terminal commands to check if everything is actually there
 							(Note: Output may vary)</p>
-
-							<div class="terminal">Terminal</div>
-							<div class="code-snippet">
-								<p>$ruby -v<br>
-									ruby 1.9.3p448 (2013-06-27 revision 41675) [x86_64-linux]</p>
-									<p>$nodejs<br>
-										>
-									</p>	
-									<p>$rvm version<br>
-										rvm 1.21.9 (stable) by Wayne E. Seguin <wayneeseguin@gmail.com>, Michal Papis <mpapis@gmail.com> [https://rvm.io/]
-									</p>
+							<div class="round-border">
+								<div class="terminal">Terminal</div>
+								<div class="code-snippet">
+									<p>$ruby -v<br>
+										ruby 1.9.3p448 (2013-06-27 revision 41675) [x86_64-linux]</p>
+										<p>$nodejs<br>
+											>
+										</p>	
+										<p>$rvm version<br>
+											rvm 1.21.9 (stable) by Wayne E. Seguin <wayneeseguin@gmail.com>, Michal Papis <mpapis@gmail.com> [https://rvm.io/]
+										</p>
+									</div>
 								</div>
 								<br>
 
 
 								<p>Now let's create a test application make sure everything "clicks" </p>
-								<div class="terminal">Terminal</div>
-								<div class="code-snippet">
-									<p>$rails new app</p>
-									<p>create <br> 
-										create  README.rdoc<br>
-										create  Rakefile<br>
-										create  config.ru<br>
-										create  .gitignore<br>
-										create  Gemfile<br>
-										create  app<br>
-										.........
-									</p>
+
+								<div class="round-border">
+									<div class="terminal">Terminal</div>
+									<div class="code-snippet">
+										<p>$rails new app</p>
+										<p>create <br> 
+											create  README.rdoc<br>
+											create  Rakefile<br>
+											create  config.ru<br>
+											create  .gitignore<br>
+											create  Gemfile<br>
+											create  app<br>
+											.........
+										</p>
+									</div>
 								</div>
 								<p>Rails is generating what is calleld the scaffolding, the frame work of the rails project</p>
 
 								To visit the homepage of the freshly created app we will need the terminal, by default rails uses port 3000 for local development
-								<div class="terminal">Terminal</div>
-								<div class="code-snippet">
-									
-									<p>$cd app
-										rails s<br>
-										=> Booting WEBrick<br>
-										=> Rails 3.2.13 application starting in development on http://0.0.0.0:3000<br>
-										=> Call with -d to detach<br>
-										=> Ctrl-C to shutdown server<br>
-										[2013-08-14 12:41:36] INFO  WEBrick 1.3.1<br>
-										[2013-08-14 12:41:36] INFO  ruby 1.9.3 (2013-06-27) [x86_64-linux]<br>
-										[2013-08-14 12:41:36] INFO  WEBrick::HTTPServer#start: pid=28126 port=3000
-									</p>
 
-								</div>						
+								<div class="round-border">
+									<div class="terminal">Terminal</div>
+									<div class="code-snippet">
+
+										<p>$cd app
+											rails s<br>
+											=> Booting WEBrick<br>
+											=> Rails 3.2.13 application starting in development on http://0.0.0.0:3000<br>
+											=> Call with -d to detach<br>
+											=> Ctrl-C to shutdown server<br>
+											[2013-08-14 12:41:36] INFO  WEBrick 1.3.1<br>
+											[2013-08-14 12:41:36] INFO  ruby 1.9.3 (2013-06-27) [x86_64-linux]<br>
+											[2013-08-14 12:41:36] INFO  WEBrick::HTTPServer#start: pid=28126 port=3000
+										</p>
+
+									</div>	
+								</div>					
 							</div>	
+
+							<br>
+
+			    <div id="disqus_thread"></div>
+				    <script type="text/javascript">
+				        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+				        var disqus_shortname = 'devonring'; // required: replace example with your forum shortname
+
+				        /* * * DON'T EDIT BELOW THIS LINE * * */
+				        (function() {
+				            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+				            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+				            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+				        })();
+				    </script>
+				    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+				    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    			<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'devonring'; // required: replace example with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function () {
+        var s = document.createElement('script'); s.async = true;
+        s.type = 'text/javascript';
+        s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+    }());
+    </script>
+    
+   

@@ -46,6 +46,7 @@ layout: default
 				If you wish to use more modern versions of software you must edit the command line snippets yourself.
 
 				Enter these commands into your terminal in numerical order
+				<div>
 				<div class="code-snippet">
 					<ol>
 						<li>sudo apt-get install -y curl #installing cURL a maic</li>
@@ -62,15 +63,15 @@ layout: default
 						</ol>
 
 					</div>
-
+				</div>	
 					<p>Easy right? Well was not for me when getting start, I hope this can shine a little light.
 						If you have issues please leave a comment and I will try to help to the best of my knowledge</p>
 
 						<p>After all is installed lets try a few terminal commands to check if everything is actually there
 							(Note: Output may vary)</p>
-							<div class="round-border">
+							<div>
 								<div class="terminal">Terminal</div>
-								<div class="code-snippet">
+								<div class="code-snippet border-round-bottom">
 									<p>$ruby -v<br>
 										ruby 1.9.3p448 (2013-06-27 revision 41675) [x86_64-linux]</p>
 										<p>$nodejs<br>
@@ -86,9 +87,9 @@ layout: default
 
 								<p>Now let's create a test application make sure everything "clicks" </p>
 
-								<div class="round-border">
+								<div>
 									<div class="terminal">Terminal</div>
-									<div class="code-snippet">
+									<div class="code-snippet border-round-bottom">
 										<p>$rails new app</p>
 										<p>create <br> 
 											create  README.rdoc<br>
@@ -105,9 +106,9 @@ layout: default
 
 								To visit the homepage of the freshly created app we will need the terminal, by default rails uses port 3000 for local development
 
-								<div class="round-border">
+								<div>
 									<div class="terminal">Terminal</div>
-									<div class="code-snippet">
+									<div class="code-snippet border-round-bottom">
 
 										<p>$cd app
 											rails s<br>

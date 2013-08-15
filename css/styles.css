@@ -16,20 +16,6 @@
 	width: 80%;
 }
 
-.pic{
-	width: 300px;
-	height: 230px;
-	float: left;
-	margin-right: 30px;
-	border-radius : 5px ;
-}
-
-.blurb{
-	overflow: hidden;
-	
-}
-
-
 
 .twitter-share-button{
 	margin-top: 12px;
@@ -42,14 +28,13 @@
 	margin-left: 20%;
 }
 .code-snippet{
-	font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
+	font-family: Consolas, Menlo, Monaco, Lucida Console;
 	padding: 10px 25px 10px 25px;
 	background-color: #000000;
 	color: #FFFFFF;
 	font-size: 14px;
 	word-wrap:break-word;
-	border-bottom-right-radius: 12px;
-	border-bottom-left-radius: 12px;
+
 }
 .terminal{
 	border-top-right-radius: 12px;
@@ -62,4 +47,9 @@
 	font-size: 16px;
 	font-weight: bold;
 	text-align: center;
+}
+
+.border-round-bottom{
+	border-bottom-right-radius: 12px;
+	border-bottom-left-radius: 12px;
 }

@@ -7,8 +7,7 @@
   <!--[if lt IE 9]>
   <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
-  <link rel="stylesheet" href="/css/styles.css" />
-  <link rel="stylesheet" href="/css/bootstrap/css/bootstrap.css" />
+  <link rel="stylesheet" href="/css/styles.css"/>
 
 </head>
 
@@ -16,77 +15,69 @@
  
   <div id="main">
   
-  <header class="navbar navbar-fixed-top">  
-    <div class="navbar-inner">
-      <div class="container">
-        <nav >
-
-          <ul class="nav pull-right">
-            <li ><a href="/index.html" >Home</a></li>
-            <li ><a href="/pages/portfolio.html" id="portfolio" >Portfolio</a></li>
-            <li><a href="/pages/contact.html">Contact</a></li>
+  <header>  
+<div class="navbar navbar-fixed-top navbar-inverse">
+  <div class="navbar-inner">
+    <div class="container">
+      <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </a>
+      <a class="brand" href="#">My Shitty Blog</a>
+      <div class="nav-collapse">
+        <ul class="nav">
+          <li class="active"><a href="#"><i class="icon-home icon-white"></i> Home</a></li>
+          <!--<li><a href="#"></a></li> -->
           
-          </ul>
-        </nav>
-      </div>
-    </div>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Social+ <b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Linkedin</a></li>
+              <li><a href="#">Twitter</a></li>
+              <li><a href="#">Github</a></li>
+              <li><a href="#">Resume</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div><!-- /.nav-collapse -->
+    </div><!-- /.container -->
+  </div><!-- /.navbar-inner -->
+</div><!-- /.navbar -->
   </header>
  
     <br>
-    <div class = "content ">
-    <br>
-<h1>Ongoing projects</h1>
+    <div class = "content center-block">
+    <div class="font-contents">
+	<br>
+	<h1>Projects</h1>
 
 	<div class="center hero-unit">
-		<div class ="center-block">
-	
-		<ul>
-			<li class="Title"> <a href="https://github.com/dring1/Lousylandlord"> Lousylandlord.ca </a> </li>
+		<div >
+
+			<ul>
+				<li class="Title"> <a href="https://github.com/dring1/Lousylandlord"> Lousylandlord.ca </a> </li>
 				<p class="desc"> A website built with Ruby on Rails aimed at allowing users to anonymously report on their lousy land lord experiences</p> 
-			<li class = "Title"> <a href="https://github.com/francislavoie/COMP3004"> 7 Wonders </a></li>
+				<li class = "Title"> <a href="https://github.com/francislavoie/COMP3004"> 7 Wonders </a></li>
 				<p class="desc"> A java implementation of the popular board game 7-Wonders. They game has global play available. The project was developed by 4 developers. I developed the client/server relationship for the entirety of the games functions.</p>
-			<li class="Title"> <a href="https://github.com/dring1/dring1.github.com"> This website </a> </li>
+				<li class="Title"> <a href="https://github.com/dring1/dring1.github.com"> This website </a> </li>
 				<p class = "desc"> This website was built purely with HTML/JS/CSS. I used the Jekyll Ruby Gem to allow for quick deployment &amp; frequent udpating. Will definitely be using Jekyll again for any static websites.</p>
-		</ul>
+			</ul>
+		</div>
 	</div>
 </div>
-
    
   </div>
  
   </div>
-  <footer>
+<!-- jQuery via Google + local fallback, see h5bp.com -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/jquery-1.7.1.min.js"><\/script>')</script>
 
-
-<div class="navbar navbar-fixed-bottom">
-
-  <div class="navbar-inner">
-      <div class="container">
-        <nav>
-          <ul class="nav ">
-            
-            <li ><a href="http://ca.linkedin.com/pub/devon-ring/59/403/34a">
-        
-            <img src="http://www.linkedin.com/img/webpromo/btn_viewmy_160x25.png" width="160" height="25" border="0" alt="View Devon Ring's profile on LinkedIn">
-          
-      </a></li>
-            <li ><a href="https://twitter.com/share" class="twitter-share-button" data-via="dringx">Tweet</a></li>
-          </ul>
-        </nav>
-      </div>
-    </div>
-</div>
-
-<script type="text/javascript">
-    (function() {
-      var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-      po.src = 'https://apis.google.com/js/plusone.js';
-      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-    })();
-  </script>
-      <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-</footer>
-
+    <!-- Bootstrap jQuery Plugins, compiled and minified -->
+    <script src="../css/bootstrap/js/bootstrap.min.js"></script>
 </body>
+
+
 
 </html>

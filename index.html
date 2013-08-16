@@ -1,52 +1,39 @@
 ---
 layout: default
 ---
-<br>
-<div class="center-block">
+
 <div >
-	
+	<div >
+		<ul >
+			{% for post in site.posts %}
+			<div class="blog-list">
+				<img src="/img/ouch.png" alt="ruby entering skulls" class="post-thumbnail">
+				<li class="post-link">
 
-			<ul >
-				{% for post in site.posts %}
-					<div class="blog-list">
-						<img src="/img/ouch.png" alt="ruby entering skulls" class="post-thumbnail">
-						<li class="post-link">
-							
-							<h3><a href="{{ post.url }}"> {{ post.title }}</a></h3>
-							
-							<p>So you have decided to get started with Ruby on Rails? Much easier said than done.
-								Well was for me anyways...</p>
-											
-						</li>
-					</div>
+					<h3><a href="{{ post.url }}"> {{ post.title }}</a></h3>
+
+					<p>So you have decided to get started with Ruby on Rails? Much easier said than done.
+						Well was for me anyways...</p>
+
+					</li>
+				</div>
 				{% endfor %}
+		</ul>
+	</div>
+
+	<div class="aboutme">
+
+		<p> Devon Ring. Computer Science, hockey, software development and cooking</p>	
+		<div class="social-group">
+			<ul class="buttons unstyled ">
+				<li class="shitty-li"><a href=""><img src="/img/email_icon.png"/></a></li>
+				<li class="shitty-li"><a href="https://twitter.com/dringx"><img src="/img/twitter_icon.png"/></a></li>
+				<li class="shitty-li"><a href="https://github.com/dring1"><img src="/img/git_icon.png"/></a></li>
+				<li class="shitty-li"><a href="http://ca.linkedin.com/pub/devon-ring/59/403/34a"><img src="/img/linkedin_icon.png"/></a></li>
+
 			</ul>
+		</div>		
+	</div>
 
-	
-</div>
 
-<div class="aboutme">
-	<div></div>	
-	<div> Devon Ring. Computer Science, hockey, software development and cooking</div>	
-	<div class="social-group">
-	<ul class="buttons unstyled ">
-		<li class="shitty-li"><a href=""><img src="/img/email_icon.png"/></a></li>
-		<li class="shitty-li"><a href=""><img src="/img/twitter_icon.png"/></a></li>
-		<li class="shitty-li"><a href=""><img src="/img/git_icon.png"/></a></li>
-		<li class="shitty-li"><a href=""><img src="/img/linkedin_icon.png"/></a></li>
-
-	</ul>
-	</div>		
-</div>
-
-<p>
-	<ul class="buttons unstyled">
-	  <li><a href="http://github.com/erjjones" rel="me" class="social github" title="Go to github.com/erjjones" target="_blank"></a></li>
-	  <li><a href="http://www.linkedin.com/pub/eric-jones/a/848/1b3" rel="me" class="social linkedin" title="Go to LinkedIn profile" target="_blank"></a></li>
-	  <li><a href="http://www.twitter.com/erjjones" rel="me" class="social twitter" title="Go to twitter.com/erjjones" target="_blank"></a></li>
-	  <li><a href="http://feeds.feedburner.com/github/xmyo" rel="me" class="social rss" title="Go to feedburner erjjones rss feed" target="_blank"></a></li>
-	  <li><a href="https://plus.google.com/u/0/114561259331203581412/posts" rel="me" class="social gplus" title="Go to Google Plus profile" target="_blank"></a></li> 
-	  <li><a href="https://github.com/erjjones/Feedback/issues/new" rel="me" class="social mail" title="Leave feedback for Eric"  target="_blank"></a></li>				
-	</ul>
-</p>
 </div>

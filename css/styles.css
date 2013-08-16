@@ -1,34 +1,36 @@
+
+@import url('bootstrap/css/bootstrap.css');
+@import url('bootstrap/css/bootstrap-responsive.css');
+
 .center-block {
 	margin-left: auto;
 	margin-right: auto;
+	margin-top: 50px;
 	width: 1000px;
+
 }
 .content{
 	margin-bottom: 10%;
 }
 
-#nav-name{
-	margin-right: 550px;
+body{
+ //background-color: #000000;
 }
-
 .desc{
 	margin: 0 auto;
 	width: 80%;
 }
 
-
-.twitter-share-button{
+.twitter-share-button{ 
 	margin-top: 12px;
 }
 .gunit{
 	margin-top: 12px;
 }
 
-.contents{
-	margin-left: 20%;
-}
 
-.blog-contents{
+
+.blog-contents, .text-contents{
 	font-size: 16px;
 }
 .code-snippet{
@@ -94,7 +96,6 @@
 .shitty-li{
 	display: inline;
 	list-style-type: none;
-
 }
 
 .social-group{
@@ -107,8 +108,7 @@
 	top: 50px;
 	height: 110px;
 	width: 75px;
-	float:left;
-	
+	float:left;	
 }
 
 .blog-list{
@@ -120,9 +120,11 @@
 	list-style: none;
 	margin-top: 30px;
 	margin-bottom: 30px;
-
 	width: 400px;
 	border-bottom-width: 1px;	
 	border-bottom-style: outset;
 }
+
+
+
 

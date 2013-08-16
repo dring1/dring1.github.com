@@ -1,7 +1,7 @@
 .center-block {
 	margin-left: auto;
 	margin-right: auto;
-	width: 65%;
+	width: 1000px;
 }
 .content{
 	margin-bottom: 10%;
@@ -27,14 +27,16 @@
 .contents{
 	margin-left: 20%;
 }
+
+.blog-contents{
+	font-size: 16px;
+}
 .code-snippet{
 	font-family: Consolas, Menlo, Monaco, Lucida Console;
 	padding: 10px 25px 10px 25px;
 	background-color: #000000;
 	color: #FFFFFF;
-	font-size: 14px;
-	word-wrap:break-word;
-
+	//font-size: 14px;
 }
 .terminal{
 	border-top-right-radius: 12px;
@@ -44,7 +46,7 @@
 	color: #000000;
 	border: solid 1px black;
 	border-bottom: none;
-	font-size: 16px;
+	font-size: 18px;
 	font-weight: bold;
 	text-align: center;
 }
@@ -55,7 +57,7 @@
 }
 
 .encompass{
-	width: 80%;
+	width: 500px;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -64,6 +66,7 @@
 	list-style: none;
 	margin-top: 30px;
 	margin-bottom: 30px;
+
 	width: 50%;
 	border-bottom-width: 1px;	
 	border-bottom-style: outset;
@@ -73,6 +76,41 @@
 	float: right;
 	width: 300px;
 	height: 300px;
-	border: solid 1px black;
-	margin-right: 15%;
+	//border: solid 1px black;
+	margin-left: 120px;
+	//margin-right: 10%;
+}
+.blog-title-image{
+	margin: 0 auto;
+}
+
+#disqus-content{
+	width:700px;
+	margin: 0 auto;
+}
+
+.slim-contents{
+	width: 600px;
+	margin: 0 auto;
+}
+
+.social{
+	width: 40px;
+	height: 40px;
+}
+.shitty-li{
+	display: inline;
+	list-style-type: none;
+}
+
+.social-group{
+	width: 200px;
+	position: relative;
+	top: 250px;
+}
+.post-thumbnail{
+	height: 110px;
+	width: 75px;
+	float:left;
+	
 }

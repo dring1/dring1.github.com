@@ -2,17 +2,19 @@
 layout: default
 ---
 <br>
+<div class="center-block">
 <h1> Blog List </h1> 
-<div class=" ">
+<div >
 	
 
 			<ul>
 				{% for post in site.posts %}
 				<li class="post-link">
 					<h3><a href="{{ post.url }}"> {{ post.title }}</a></h3>
+					<img src="/img/ouch.png" alt="ruby entering skulls" class="post-thumbnail">
 					<p>So you have decided to get started with Ruby on Rails? Much easier said than done.
 						I remember when I thought that and thought it would take a week or so, but I found it 
-						very difficult and time consuming as it felt like I had a major lack of direction</p>
+						very difficult and time consuming as it felt like I had a major lack of direction...</p>
 				</li>
 				{% endfor %}
 			</ul>
@@ -22,7 +24,17 @@ layout: default
 </div>
 
 <div class="aboutme">
-	
+	<div></div>	
+	<div> Devon Ring. Computer Science, hockey, software development and cooking</div>	
+	<div class="social-group">
+	<ul class="buttons unstyled ">
+		<li class="shitty-li"><a href=""><img src="/img/email_icon.png"/></a></li>
+		<li class="shitty-li"><a href=""><img src="/img/twitter_icon.png"/></a></li>
+		<li class="shitty-li"><a href=""><img src="/img/git_icon.png"/></a></li>
+		<li class="shitty-li"><a href=""><img src="/img/linkedin_icon.png"/></a></li>
+
+	</ul>
+	</div>		
 </div>
 
 <p>
@@ -35,3 +47,4 @@ layout: default
 	  <li><a href="https://github.com/erjjones/Feedback/issues/new" rel="me" class="social mail" title="Leave feedback for Eric"  target="_blank"></a></li>				
 	</ul>
 </p>
+</div>

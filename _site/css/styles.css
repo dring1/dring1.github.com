@@ -61,24 +61,17 @@
 	margin-left: auto;
 	margin-right: auto;
 }
-.post-link{
-	float: left;
-	list-style: none;
-	margin-top: 30px;
-	margin-bottom: 30px;
 
-	width: 50%;
-	border-bottom-width: 1px;	
-	border-bottom-style: outset;
-}
 
 .aboutme{
 	float: right;
 	width: 300px;
 	height: 300px;
+	margin-top: 30px;
 	//border: solid 1px black;
-	margin-left: 120px;
-	//margin-right: 10%;
+	//position: absolute;
+	//margin-left: 90px;
+	//margin-left: 80%;
 }
 .blog-title-image{
 	margin: 0 auto;
@@ -101,16 +94,35 @@
 .shitty-li{
 	display: inline;
 	list-style-type: none;
+
 }
 
 .social-group{
 	width: 200px;
 	position: relative;
-	top: 250px;
+	top: 200px;
 }
 .post-thumbnail{
+	position: relative;
+	top: 50px;
 	height: 110px;
 	width: 75px;
 	float:left;
 	
 }
+
+.blog-list{
+	width: 500px;	
+	float: left;
+}
+.post-link{
+	float: right;
+	list-style: none;
+	margin-top: 30px;
+	margin-bottom: 30px;
+
+	width: 400px;
+	border-bottom-width: 1px;	
+	border-bottom-style: outset;
+}
+

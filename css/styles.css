@@ -23,7 +23,7 @@ body{
 
 .aboutme{
 	float: right;
-	width: 300px;
+	width: 350px;
 	height: 300px;
 	margin-top: 30px;
 	//border: solid 1px black;
@@ -31,6 +31,8 @@ body{
 	//margin-left: 90px;
 	//margin-left: 80%;
 }
+
+
 .blog-title-image{
 	margin: 0 auto;
 }
@@ -55,7 +57,7 @@ body{
 }
 
 .social-group{
-	width: 200px;
+	width: 350px;
 	position: relative;
 	top: 200px;
 }
@@ -546,3 +548,4 @@ line-height: 1.5em;
 .icon .folder{
     margin:15px 0 0 6px;
 }
+

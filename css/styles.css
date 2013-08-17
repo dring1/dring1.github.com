@@ -19,7 +19,10 @@ body{
  font-size: 120%;
 }
 
-
+.alert-info{
+	text-align: center;
+	width: 275px;
+}
 
 .aboutme{
 	float: right;

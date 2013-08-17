@@ -1,8 +1,10 @@
-function activate(){
-	btn = document.getElementById("email-icon");
-}
 
-function overlay() {
-	el = document.getElementById("overlay");
-	el.style.visibility = (el.style.visibility == "visible") ? "hidden" : "visible";
-}
+
+$( document ).ready(function() {
+ 	$("#email").hide();
+
+ 	$("#email-icon").on("click",function(){
+ 		$("#email").show();
+ 	});
+   
+});

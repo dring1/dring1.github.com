@@ -18,7 +18,7 @@ layout: default
 	<div class="blog-contents">
 
 		<h3>Is this post for you ?</h3>
-		<p>This blog assumes that you have basic knowledge of the following web technologies:</p>
+		<p>This post assumes you have basic knowledge of the following  technologies:</p>
 		<ul>
 			<li>CSS</li>
 			<li>HTML</li>
@@ -33,10 +33,10 @@ layout: default
 			
 
 			<h3>Getting Started with Installation</h3>
-
-			<p>For Winodws users please check out <a href="http://railsinstaller.org/en">railsinstaller.org</a></p>	
+			<p>For the first part of this series I am going to cover installation. </p>
+			<p>For Winodws users please check out <a href="http://railsinstaller.org/en">railsinstaller.org</a>.</p>	
 			<p>
-				For Mac users I highly suggest you read the railscasts <a href="http://railscasts.com/episodes/310-getting-started-with-rails"> guide </a></p>
+				For Mac users I highly suggest you read the railscasts <a href="http://railscasts.com/episodes/310-getting-started-with-rails"> guide </a>.</p>
 
 				<p> One of the most daunting tasks for getting started with Rails may be the fact that installing it can be quite a bitch.
 					So, for you linux users I have supplied a list of command to enter into your terminal.
@@ -117,7 +117,7 @@ layout: default
 
 						
 						<br>
-						<p class="slim-contents">Easy right? Well was not for me when getting start, I hope this can shine a little light.
+						<p class="slim-contents">Easy right? <br/>
 							If you have issues please leave a comment and I will try to help to the best of my knowledge</p><br>
 
 							<p  class="slim-contents">After all is installed lets try a few terminal commands to check if everything is actually there

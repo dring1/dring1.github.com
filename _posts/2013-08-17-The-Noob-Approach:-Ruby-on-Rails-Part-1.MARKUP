@@ -118,7 +118,7 @@ layout: default
 						
 						<br>
 						<p class="slim-contents">Easy right? <br/>
-							If you have issues please leave a comment and I will try to help to the best of my knowledge</p><br>
+							If you have issues  during the installation please leave a comment and I will try to help to the best of my knowledge, additionally someone has definitely had the issue before and practice your google-fu.</p><br>
 
 							<p  class="slim-contents">After all is installed lets try a few terminal commands to check if everything is actually there
 								(Note: Output may vary)</p>
@@ -173,7 +173,7 @@ layout: default
 									<br>
 
 
-									<p  class="slim-contents">Now let's create a test application make sure everything "clicks" </p>
+									<p  class="slim-contents">Now let's create a test application make sure everything "clicks". In your console type <strong class="code">rails new app</strong>. You will now see rails generate many files and folders.</p>
 
 
 
@@ -226,9 +226,15 @@ layout: default
 										</div>	
 									</div>
 									
-									<p class="slim-contents">Rails is generating what is calleld the scaffolding, the frame work of the rails project<br>
+									<p class="slim-contents">So what the hell just happened? Rails is generating several skeleton files and folders to get you on your merry way.<br>
+
+										Voila! We now have the functionality of a very basic web app.<br/>
+
+										In order to see and test what your app is doing, the rails server needs to be started. First we need to go into the directory of the newly created app. In your console <strong class="code">cd app </strong> and to start the server enter <strong class="code">rails server</strong> or its alias <strong class="code">rails s</strong>
 
 										To visit the homepage of the freshly created app we will need the terminal, by default rails uses port 3000 for local development</p>
+
+
 
 										<div id="window">
 											<div id="toolbar">
@@ -279,13 +285,21 @@ layout: default
 											</div>	
 										</div>
 
+									
+										<div class="slim-contents">
+												<br> 
+										Let's visit the page at <strong class="url">http://localhost:3000</strong><br>
+										<br/>
+											<img src="../../../../img/localhost3000.png" />
+										</div>
+									
 
 
 
 										<br>
 										<p class="slim-contents">Hopefully you have the same results, if not try reinstalling!<br>
 											That wraps it up for installation<br>
-											Next time I will cover where we go from here.</p>
+											Next time I will try to point in what I think is the ideal direction for learning rails!</p>
 											<br>
 											<div class="span9 column">
 												<p class="pull-right">{% if page.previous.url %} <a href="{{page.previous.url}}" title="Previous Post: {{page.previous.title}}"><i class="icon-chevron-left"></i></a> 	{% endif %}   {% if page.next.url %} 	<a href="{{page.next.url}}" title="Next Post: {{page.next.title}}"><i class="icon-chevron-right"></i></a> 	{% endif %} </p>  

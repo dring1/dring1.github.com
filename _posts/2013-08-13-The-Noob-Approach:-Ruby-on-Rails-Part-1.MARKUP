@@ -28,11 +28,9 @@ layout: default
 		</ul>
 		<p>
 			So you have decided to get started with Ruby on Rails? Much easier said than done.
-			I remember when I thought that and thought it would take a week or so, but I found it 
-			very difficult and time consuming as it felt like I had a major lack of direction when trying to
-			break into the world of Ruby on Rails. I hope this post can shed a little light from my past 
+			When I was just getting started with rails I was naive enough to believe I could just "get" started. I attempted to install rails back in 2010 on Linux Mint and did I ever suffer. Things were not clicking and I was constantly running into permission errors, safe to say I have come a long way. I hope this post can shed a little light from my past 
 			experiences and get you on the right track.</p>
-			<p>If you are not familiar with web technologies such as PHP or django you may have some difficulty wrapping your head around the idea of dynamic web applications	</p>
+			
 
 			<h3>Getting Started with Installation</h3>
 
@@ -115,14 +113,14 @@ layout: default
 								<div class="cursor"></div>	
 							</div>	
 						</div>
-						
+
 
 						
 						<br>
 						<p class="slim-contents">Easy right? Well was not for me when getting start, I hope this can shine a little light.
 							If you have issues please leave a comment and I will try to help to the best of my knowledge</p><br>
 
-							<p  class="slim-contents">After all is installed lets try a few terminal ccode-ommands to check if everything is actually there
+							<p  class="slim-contents">After all is installed lets try a few terminal commands to check if everything is actually there
 								(Note: Output may vary)</p>
 								
 								<div id="window">
@@ -167,11 +165,11 @@ layout: default
 											<p>$rvm version<br>
 												rvm 1.21.9 (stable) by Wayne E. Seguin <wayneeseguin@gmail.com>, Michal Papis <mpapis@gmail.com> [https://rvm.io/]
 											</p>
-											
+
 											<div class="cursor"></div>	
 										</div>	
 									</div>
-									
+
 									<br>
 
 
@@ -213,7 +211,7 @@ layout: default
 											</div>
 										</div>
 										<div id="body">
-											
+
 											<p>$rails new app</p>
 											<p>create <br> 
 												create  README.rdoc<br>
@@ -276,14 +274,14 @@ layout: default
 													[2013-08-14 12:41:36] INFO  ruby 1.9.3 (2013-06-27) [x86_64-linux]<br>
 													[2013-08-14 12:41:36] INFO  WEBrick::HTTPServer#start: pid=28126 port=3000
 												</p>
-												
+
 												<div class="cursor"></div>	
 											</div>	
 										</div>
-										
 
-										
-										
+
+
+
 										<br>
 										<p class="slim-contents">Hopefully you have the same results, if not try reinstalling!<br>
 											That wraps it up for installation<br>

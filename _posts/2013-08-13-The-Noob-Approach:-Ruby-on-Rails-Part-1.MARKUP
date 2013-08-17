@@ -2,8 +2,8 @@
 layout: default
 ---
 <ul class="breadcrumb">
-  <li><a href="../../../../index.html">Home</a> <span class="divider">/</span></li>
-  <li class="active">{{page.title}}</li>
+	<li><a href="../../../../index.html">Home</a> <span class="divider">/</span></li>
+	<li class="active">{{page.title}}</li>
 </ul>
 
 <div > 
@@ -62,35 +62,103 @@ layout: default
 						Enter these commands into your terminal in numerical order
 
 					</p>
-					<div class="encompass">
-
-
-						<div class="code-snippet">
-							<ol>
-								<li>sudo apt-get install -y curl #installing cURL a maic</li>
-								<li>curl -L get.rvm.io | bash -s stable</li>
-								<li>echo [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" >> ~/.bash_profile</li>
-								<li>sudo apt-get install git sqlite </li>
-								<li>echo | sudo apt-add-repository ppa:chris-lea/node.js<br>
-									sudo apt-get update<br>
-									sudo apt-get install -y nodejs</li>
-									<li>rvm install 1.9.3</li>
-									<li>source ~/.rvm/scripts/rvm</li>
-									<li>rvm use 1.9.3 --default</li>
-									<li>gem install rails</li>
-								</ol>
-
+					
+					<div id="window">
+						<div id="toolbar">
+							<div class="top">
+								<div id="lights">
+									<div class="light red">
+										<div class="glyph">×</div>
+										<div class="shine"></div>
+										<div class="glow"></div>
+									</div>				
+									<div class="light yellow">
+										<div class="glyph">-</div>
+										<div class="shine"></div>
+										<div class="glow"></div>
+									</div>
+									<div class="light green">
+										<div class="glyph">+</div>
+										<div class="shine"></div>
+										<div class="glow"></div>
+									</div>
+								</div>
+								<div id="title">
+									<div class="folder">
+										<div class="tab"></div>
+										<div class="body"></div>
+									</div>
+									Terminal
+								</div>
+								<div id="bubble">
+									<div class="shine"></div>
+									<div class="glow"></div>
+								</div>
 							</div>
-						</div>	
+						</div>
+						<div id="body">
+							<p>
+								<ol>
+									<li>sudo apt-get install -y curl #installing cURL a maic</li>
+									<li>curl -L get.rvm.io | bash -s stable</li>
+									<li>echo [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" >> ~/.bash_profile</li>
+									<li>sudo apt-get install git sqlite </li>
+									<li>echo | sudo apt-add-repository ppa:chris-lea/node.js<br>
+										sudo apt-get update<br>
+										sudo apt-get install -y nodejs</li>
+										<li>rvm install 1.9.3</li>
+										<li>source ~/.rvm/scripts/rvm</li>
+										<li>rvm use 1.9.3 --default</li>
+										<li>gem install rails</li>
+									</ol>
+								</p>
+								<div class="cursor"></div>	
+							</div>	
+						</div>
+						
+
+						
 						<br>
 						<p class="slim-contents">Easy right? Well was not for me when getting start, I hope this can shine a little light.
 							If you have issues please leave a comment and I will try to help to the best of my knowledge</p><br>
 
 							<p  class="slim-contents">After all is installed lets try a few terminal ccode-ommands to check if everything is actually there
 								(Note: Output may vary)</p>
-								<div class="encompass"> 
-									<div class="terminal">Terminal</div>
-									<div class="code-snippet border-round-bottom">
+								
+								<div id="window">
+									<div id="toolbar">
+										<div class="top">
+											<div id="lights">
+												<div class="light red">
+													<div class="glyph">×</div>
+													<div class="shine"></div>
+													<div class="glow"></div>
+												</div>				
+												<div class="light yellow">
+													<div class="glyph">-</div>
+													<div class="shine"></div>
+													<div class="glow"></div>
+												</div>
+												<div class="light green">
+													<div class="glyph">+</div>
+													<div class="shine"></div>
+													<div class="glow"></div>
+												</div>
+											</div>
+											<div id="title">
+												<div class="folder">
+													<div class="tab"></div>
+													<div class="body"></div>
+												</div>
+												Terminal
+											</div>
+											<div id="bubble">
+												<div class="shine"></div>
+												<div class="glow"></div>
+											</div>
+										</div>
+									</div>
+									<div id="body">
 										<p>$ruby -v<br>
 											ruby 1.9.3p448 (2013-06-27 revision 41675) [x86_64-linux]</p>
 											<p>$nodejs<br>
@@ -99,16 +167,53 @@ layout: default
 											<p>$rvm version<br>
 												rvm 1.21.9 (stable) by Wayne E. Seguin <wayneeseguin@gmail.com>, Michal Papis <mpapis@gmail.com> [https://rvm.io/]
 											</p>
-										</div>
+											
+											<div class="cursor"></div>	
+										</div>	
 									</div>
+									
 									<br>
 
 
 									<p  class="slim-contents">Now let's create a test application make sure everything "clicks" </p>
 
-									<div class="encompass">
-										<div class="terminal">Terminal</div>
-										<div class="code-snippet border-round-bottom">
+
+
+									<div id="window">
+										<div id="toolbar">
+											<div class="top">
+												<div id="lights">
+													<div class="light red">
+														<div class="glyph">×</div>
+														<div class="shine"></div>
+														<div class="glow"></div>
+													</div>				
+													<div class="light yellow">
+														<div class="glyph">-</div>
+														<div class="shine"></div>
+														<div class="glow"></div>
+													</div>
+													<div class="light green">
+														<div class="glyph">+</div>
+														<div class="shine"></div>
+														<div class="glow"></div>
+													</div>
+												</div>
+												<div id="title">
+													<div class="folder">
+														<div class="tab"></div>
+														<div class="body"></div>
+													</div>
+													Terminal
+												</div>
+												<div id="bubble">
+													<div class="shine"></div>
+													<div class="glow"></div>
+												</div>
+											</div>
+										</div>
+										<div id="body">
+											
 											<p>$rails new app</p>
 											<p>create <br> 
 												create  README.rdoc<br>
@@ -119,16 +224,48 @@ layout: default
 												create  app<br>
 												.........
 											</p>
-										</div>
+											<div class="cursor"></div>	
+										</div>	
 									</div>
+									
 									<p class="slim-contents">Rails is generating what is calleld the scaffolding, the frame work of the rails project<br>
 
 										To visit the homepage of the freshly created app we will need the terminal, by default rails uses port 3000 for local development</p>
 
-										<div class="encompass">
-											<div class="terminal">Terminal</div>
-											<div class="code-snippet border-round-bottom">
-
+										<div id="window">
+											<div id="toolbar">
+												<div class="top">
+													<div id="lights">
+														<div class="light red">
+															<div class="glyph">×</div>
+															<div class="shine"></div>
+															<div class="glow"></div>
+														</div>				
+														<div class="light yellow">
+															<div class="glyph">-</div>
+															<div class="shine"></div>
+															<div class="glow"></div>
+														</div>
+														<div class="light green">
+															<div class="glyph">+</div>
+															<div class="shine"></div>
+															<div class="glow"></div>
+														</div>
+													</div>
+													<div id="title">
+														<div class="folder">
+															<div class="tab"></div>
+															<div class="body"></div>
+														</div>
+														Terminal
+													</div>
+													<div id="bubble">
+														<div class="shine"></div>
+														<div class="glow"></div>
+													</div>
+												</div>
+											</div>
+											<div id="body">
 												<p>$cd app<br>
 													$rails s<br>
 													=> Booting WEBrick<br>
@@ -139,17 +276,22 @@ layout: default
 													[2013-08-14 12:41:36] INFO  ruby 1.9.3 (2013-06-27) [x86_64-linux]<br>
 													[2013-08-14 12:41:36] INFO  WEBrick::HTTPServer#start: pid=28126 port=3000
 												</p>
-
+												
+												<div class="cursor"></div>	
 											</div>	
-										</div>					
+										</div>
+										
+
+										
+										
 										<br>
 										<p class="slim-contents">Hopefully you have the same results, if not try reinstalling!<br>
 											That wraps it up for installation<br>
 											Next time I will cover where we go from here.</p>
 											<br>
 											<div class="span9 column">
-		<p class="pull-right">{% if page.previous.url %} <a href="{{page.previous.url}}" title="Previous Post: {{page.previous.title}}"><i class="icon-chevron-left"></i></a> 	{% endif %}   {% if page.next.url %} 	<a href="{{page.next.url}}" title="Next Post: {{page.next.title}}"><i class="icon-chevron-right"></i></a> 	{% endif %} </p>  
-</div>
+												<p class="pull-right">{% if page.previous.url %} <a href="{{page.previous.url}}" title="Previous Post: {{page.previous.title}}"><i class="icon-chevron-left"></i></a> 	{% endif %}   {% if page.next.url %} 	<a href="{{page.next.url}}" title="Next Post: {{page.next.title}}"><i class="icon-chevron-right"></i></a> 	{% endif %} </p>  
+											</div>
 										</div>	
 
 
@@ -184,4 +326,6 @@ layout: default
 
 
 </div>
+
+
 </div>

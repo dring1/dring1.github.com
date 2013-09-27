@@ -1,0 +1,116 @@
+---
+layout: default
+image: 1.png
+sample: Reached "codersblock" in your rails development?
+---
+<ul class="breadcrumb">
+	<li><a href="../../../../index.html">Home</a> <span class="divider">/</span></li>
+	<li class="active">{{page.title}}</li>
+</ul>
+
+<div > 
+	<br>
+	<h3><strong>{{ page.title }}</strong></h3>
+	<h4>{{ page.date | date: "%B %e, %Y" }}</h4>
+
+</div>
+<img src="/img/2.png"/>
+
+<div class="blog-contents">
+	<p>&nbsp;&nbsp;&nbsp;Have you  come to a point in your rails learning when you express “Shit, I’ve done multiple tutorials and a 
+		bunch of reading but I still don’t have a clue". Well I am going to share the steps I took to go from zero to (amateur-mediocre) 
+		hero.</p> </br>
+
+		&nbsp;&nbsp;&nbsp;Countless times I have tried going on youtube and some other sources and to
+		watch some rails tutorials thinking I would absorb it
+		quickly. At this point in my development career I was really only familiar with the standard OO languages taught in universities (
+		Java,C,C++[maybe you got lucky with your school and
+		they diversified a little more]). So ruby was a new beast and I could not handle it. I gave tryruby.org a try and thought I could 
+		jump into rails development. Afterwards I finished 
+		railstutorial.org and still felt that I really didn’t have a firm grasp on rails. At this point I thought I better start from the 
+		ground up. I picked up The Well Grounded 
+		Rubyist and that is when it all began to click.</br>
+
+		&nbsp;&nbsp;&nbsp;Here is my recommendation and opinion on the steps required to understanding the fundamentals of rails, if you 
+		have any suggestions 
+		please post in the comments.</br></br>
+
+
+		<ol>
+
+			<li> <p> <strong> <a href="http://www.amazon.com/The-Well-Grounded-Rubyist-David-Black/dp/1933988657"> Get to know Ruby </a></strong> </br>
+				&nbsp;&nbsp;&nbsp;The Well-Grounded Ruby - a great book, although it is a little dated, it deals with ruby 1.9.X. 
+				There is absolutely nothing about rails in the book. It will introduce you into the fundamentals of ruby and some of the more 
+				unique aspects of the programming language.
+				This can be an optional book as, the subset of ruby requred for amateure rails development is  quite minimal, although I do 
+				recommend trying something of a pure ruby nature.
+				Alternatively, you can take  a gander at codeschool’s <a href="http://www.codeschool.com/courses/ruby-bits">Ruby Bits</a> 
+				screencasts
+			</p> </li> 
+
+			<li> <p> <strong> <a href="http://railsforzombies.org/">CodeSchool.com - Rails for Zombies ($25/month subscription) </a></strong>
+			</br>
+			&nbsp;&nbsp;&nbsp;Greg Pollack and the code school team do a phenomenal job presenting a very diverse number of ruby and rails 
+			screencasts. The Rails for Zombies screencasts will be a reality check whether or not rails is for you. These beginner level 
+			screencasts are a great way to implement practical uses of rails with a very helping hand. Try your hand as well on the more
+			advanced rails tutorials aswell.
+		</p> </li> 
+
+
+		<li> <p> <strong> <a href="http://railscasts.com/"> Railscast ($9/month subscription) </a></strong> </br>
+			&nbsp;&nbsp;&nbsp;To some this may be a bit early to introduce you to a set of screencasts that mostly deal with more advanced 
+			topics in rails development. But! I am a visual learner and watching the Ryan Bates (a professional rails dev) do his job was potentially the best training 
+			technique I can advise. He does a 
+			great job of forcing the viewers to understand what is going on implcitly and explicity in rails.
+			At firstI really did not understand everything that was going on at first, but as time goes on it all begins to make sense.
+		</p> </li> 
+
+
+		<li> <p> <strong><a href="http://ruby.railstutorial.org/"> Rails Tutorial (Free)</a></strong> </br>
+			&nbsp;&nbsp;&nbsp;Michael Hartl’s step-by-step guide to rails. A free PDF or 15 hours of paid screencasts are available. The 
+			tutorial will take you from a brand new rails app to a full-blow twitter like application. Although I suggest maybe making 
+			yourself familiar with the basic concepts of rails on 
+			codeschool before jumping into this book, as railstutorial.org is quite a lot of information to take in.
+		</p> </li> 
+
+		<li> <p> <strong> DIY  </strong> </br>&nbsp;&nbsp;&nbsp;Finally, try building something on your own. This is much easier said than done.
+			I started working on a website called Lousylandlord.ca (still under construction …) and I learned mostly from my mistakes, as 
+			learning should be. Stackoverflow quickly became my friend.	</p> </li> 
+
+		</ol>
+		<p>
+			That’s a wrap, I hope this can point you in the right direction!
+
+			Best of luck with taming the beast that is rails.
+		</p>
+		<div id="disqus-content">
+			<div id="disqus_thread"></div>
+			<script type="text/javascript">
+			/* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+				        var disqus_shortname = 'devonring'; // required: replace example with your forum shortname
+
+				        /* * * DON'T EDIT BELOW THIS LINE * * */
+				        (function() {
+				        	var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+				        	dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+				        	(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+				        })();
+				        </script>
+				        <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+				        <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+				        <script type="text/javascript">
+				        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'devonring'; // required: replace example with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function () {
+    	var s = document.createElement('script'); s.async = true;
+    	s.type = 'text/javascript';
+    	s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+    	(document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+    }());
+    </script>
+
+
+
+</div>

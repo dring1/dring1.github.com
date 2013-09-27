@@ -1,6 +1,10 @@
 ---
 layout: default
+image: 1.png
+sample: So you have decided to get started with Ruby on Rails? Much easier said than done. When I was just getting
 ---
+
+<!-- <p> So you have decided to get started with Ruby on Rails? Much easier said than done. </p> -->
 <ul class="breadcrumb">
 	<li><a href="../../../../index.html">Home</a> <span class="divider">/</span></li>
 	<li class="active">{{page.title}}</li>

@@ -17,7 +17,7 @@ sample: Reached "codersblock" in your rails development?
 <img src="/img/2.png"/>
 
 <div class="blog-contents">
-	<p>&nbsp;&nbsp;&nbsp;Have you  come to a point in your rails learning when you express “Shit, I’ve done multiple tutorials and a 
+	<p>&nbsp;&nbsp;&nbsp;Have you come to a point in your rails learning when you say to yourself, “Shit, I’ve done multiple tutorials and a 
 		bunch of reading but I still don’t have a clue". Well I am going to share the steps I took to go from zero to (amateur-mediocre) 
 		hero.</p> </br>
 
@@ -26,8 +26,8 @@ sample: Reached "codersblock" in your rails development?
 		quickly. At this point in my development career I was really only familiar with the standard OO languages taught in universities (
 		Java,C,C++[maybe you got lucky with your school and
 		they diversified a little more]). So ruby was a new beast and I could not handle it. I gave tryruby.org a try and thought I could 
-		jump into rails development. Afterwards I finished 
-		railstutorial.org and still felt that I really didn’t have a firm grasp on rails. At this point I thought I better start from the 
+		jump into rails development. After that I finished 
+		railstutorial.org and still felt that I really didn’t have a firm grasp on rails. At this point I thought I had better start from the 
 		ground up. I picked up The Well Grounded 
 		Rubyist and that is when it all began to click.</br>
 

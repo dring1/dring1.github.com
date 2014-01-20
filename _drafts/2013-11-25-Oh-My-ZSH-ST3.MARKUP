@@ -1,0 +1,90 @@
+---
+layout: default
+image: 
+sample: Quick fix for Sublime Text 3 from command line and Oh-my-ZSH
+---
+
+<!-- <p> So you have decided to get started with Ruby on Rails? Much easier said than done. </p> -->
+<ul class="breadcrumb">
+	<li><a href="../../../../index.html">Home</a> <span class="divider">/</span></li>
+	<li class="active">{{page.title}}</li>
+</ul>
+
+
+So I was recently persuaded to switch to Oh-My-Zsh.
+An alternate to the bash shell on *nix systems. 
+I am an avid user of Sublime Text and a real stickler for efficiency as most programmers are or should be... 
+
+One thing I really took for granted in bash was the ability to simply go into the terminal and do the following:
+
+	<div id="window">
+											<div id="toolbar">
+												<div class="top">
+													<div id="lights">
+														<div class="light red">
+															<div class="glyph">×</div>
+															<div class="shine"></div>
+															<div class="glow"></div>
+														</div>				
+														<div class="light yellow">
+															<div class="glyph">-</div>
+															<div class="shine"></div>
+															<div class="glow"></div>
+														</div>
+														<div class="light green">
+															<div class="glyph">+</div>
+															<div class="shine"></div>
+															<div class="glow"></div>
+														</div>
+													</div>
+													<div id="title">
+														<div class="folder">
+															<div class="tab"></div>
+															<div class="body"></div>
+														</div>
+														Terminal
+													</div>
+													<div id="bubble">
+														<div class="shine"></div>
+														<div class="glow"></div>
+													</div>
+												</div>
+											</div>
+											<div id="body">
+												<p>MBA/Dev/dring1.github.com$ subl . </p>
+
+												<div class="cursor"></div>	
+											</div>	
+										</div>
+
+<p> Doing so allows for sublime text to open the entire directory in which <strong class="code">subl .</strong>is called within
+
+
+Now after installing <a href="https://github.com/robbyrussell/oh-my-zsh"> Oh-my-ZSH </a>, replacing bash I lost the ability to call
+<strong class="code">subl .</strong>  &  <strong class="code">sublime newfile.txt</strong>. Which was a total buzzkill... So, the first thing I did was scour google for similar issues and
+attempt to fix the issue at hand. To no avail could I find a solution that would work. Eventually I ended up screwing with my bash profile and my .zshrc files which eventually led me to starting from scratch... And well, after using oh-my-ZSH I really did not want to
+go back to bash, simply to the amazing utilities offered by oh-my-zsh.
+
+And as always the simplest solution is 99% of the time the best!</p>
+
+I attempted to create links directly from subl to sublime texts magical subl application, but all attempts were short lived.
+<!-- Code snippet  -->
+So, lets create some simple aliases... open your zshrc file from the terminal : <strong class="code">open ~/.zshrc</strong>.
+Now copy and paste the following lines into the bottom of your .zshrc file.
+
+<pre class="prettyprint linenums">
+alias sublime="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
+
+alias subl="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl ."
+</pre>
+
+Save the file! From the command line, reload your zsh environmenyt by entering in the terminal <strong class="code">source ~/.zshrc </strong>
+
+The result is calling subl will open the directory in sublime text from which it is called and
+sublime new.txt will open sublime text with a file named new.txt
+
+Hope this helped! And don't shy away from oh-my-ZSH if it does give you some trouble out of the box.
+It is a great tool, just requires a little tinkering sometimes.
+<br>
+PS: After some testing it appears you may have to call the functions twice in order for sublime text to open in within the directory.
+

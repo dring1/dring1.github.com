@@ -2,6 +2,11 @@
 @import url('bootstrap/css/bootstrap.css');
 @import url('bootstrap/css/bootstrap-responsive.css');
 
+.center{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
 .center-block {
 	margin-left: auto;
 	margin-right: auto;
@@ -95,10 +100,10 @@ body{
 	border-radius: 12px;
 	background: #000000;
 	color: #63de00!important;
-	font-family: Andale Mono, monospace;
+	font-family: Andale Mono, mono
+    ce;
 	font-size: 13px;
 }
-
 
 body { 
 //background:#d2dfe6;
